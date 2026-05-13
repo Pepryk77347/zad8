@@ -1,0 +1,14 @@
+{
+    "umiejetnosci": [
+        "Główne Języki: Python (zaawansowany), C# oraz C++ (podstawy/średniozaawansowany)",
+        "Web Development: HTML5 i CSS3, JavaScript (nauka własna i praktyka)",
+        "Certyfikaty i Edukacja: Certyfikat biegłości, Python, Student Informatyki (Vistula)",
+        "Narzędzia: Praca w środowisku VS Code, System kontroli wersji Git",
+        "Dodatkowe: Strategiczne myślenie (Szachy), Dyscyplina i rzetelność"
+    ],
+    "projekty": [
+        "Kopia Minecraft (JavaScript)",
+        "Prosty kalkulator",
+        "Projekt strony internetowej (dla firmy)"
+    ]
+}

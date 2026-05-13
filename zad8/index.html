@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepryk Artur - CV</title>
+    <link id="theme-style" rel="stylesheet" href="red.css">
+</head>
+<body>
+    <header>
+        <img class="profil_image" src="photo_2024-05-01_23-51-31.jpg" alt="Zdjęcie profilowe - Pepryk Artur">
+        <h1>Artur <br> <nav class="header_last_name">Pepryk</nav> <nav class="header_text">Technik informatyk</nav></h1>
+        
+    </header>
+
+    <main>
+        <button id="theme-toggle">Zmień motyw na zielony</button>
+        <div class="first_block">
+            <section>
+                <h2>O mnie</h2>
+                <p>Jestem studentem pierwszego roku informatyki na Akademii Finansów i Biznesu Vistula w Warszawie.
+                    Pasjonuję się programowaniem i nieustannie rozwijam swoje umiejętności w tej dziedzinie. Obecnie łączę studia z pracą
+                    kuriera, co pozwala mi na dobrą organizację czasu i samodzielność. W wolnych chwilach chętnie gram w szachy, co pomaga mi
+                    ćwiczyć logiczne myślenie.</p>
+            </section>
+
+            <section>
+                <h2>Kontakt</h2>
+                <p>E-mail: 
+                    <a href="mailto:peprikartur@gmail.com">peprikartur@gmail.com</a>
+                </p>
+                <p>Telefon: 
+                    <a href="tel:+48888071286">+48888071286</a>
+                </p>
+                <p>Miasto: Warszawa</p>
+            </section>
+        </div>
+
+        <div class="second_block">
+            <section>
+                <h2>Doświadczenie</h2>
+                <article>
+                    <h3>Prace budowlane</h3>
+                    <p>Wykonywanie przewiertów w blokach betonowych pod instalacje sanitarne. Przygotowywanie wykopów pod sieci kanalizacyjne. Montaż i układanie rur z tworzyw sztucznych (PVC). Prace przy zalewaniu fundamentów oraz inne pomocnicze prace budowlane.</p>
+                </article>
+
+                <article>
+                    <h3>Prace ogrodowe</h3>
+                    <p>Kompleksowa uprawa i pielęgnacja drzew oraz krzewów owocowych (jabłonie, grusze, śliwy, morele, czereśnie, wiśnie oraz krzewy malin). Uprawa warzyw gruntowych, w tym dyni, wymagająca stałego nadzoru i dbałości o jakość plonów. Wykonywanie zabiegów agrotechnicznych.</p>
+                </article>
+
+                <article>
+                    <h3>Kurier</h3>
+                    <p>Realizacja dostaw zamówień (jedzenie oraz produkty spożywcze) z zachowaniem standardów jakości i czasu. Obsługa aplikacji logistycznych oraz systemów płatniczych w codziennej pracy. Profesjonalna obsługa klienta oraz dbałość o pozytywny wizerunek firmy.</p>
+                </article>
+            </section>
+
+            <section>
+                <h2>Umiejętności</h2>
+                <ul id="lista-umiejetnosci" class="ul_text">
+                    <li>Główne Języki: Python (zaawansowany), C# oraz C++ (podstawy)</li>
+                    <li>Web Development: HTML5, CSS3, JavaScript (praktyka)</li>
+                    <li>Narzędzia: VS Code, System kontroli wersji Git & GitHub</li>
+                    <li>Dodatkowe: Myślenie strategiczne (Szachy), Zarządzanie czasem</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="third_block">
+            <section>
+                <h2>Edukacja</h2>
+                <p>Akademia Finansów i Biznesu Vistula w Warszawie. Kierunek: Informatyka (2025 – obecnie)</p>
+                <p>Technikum ZDZ. Kierunek: Technik Informatyk (Ukończone 2 lata nauki – profil specjalistyczny)</p>
+                <p>Liceum Ogólnokształcące. Profil matematyczno-informatyczny (klasy 5–11)</p>
+                <p>Szkoła Podstawowa Anglojęzyczna (Intensywna nauka języka angielskiego)</p>
+            </section>
+
+            <section>
+                <h2>Projekty
+                    <button id="toogle-projects">Ukryj projekty</button>
+                </h2>
+                <div id="text-projects">
+                    <ol id="lista-projektow">
+                        <li>Kopia Minecraft (JavaScript)</li>
+                        <li>Prosty kalkulator webowy</li>
+                        <li>Projekt responsywnej strony internetowej</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+
+        <div class="app-container">
+            <h2>Notatki (Local Storage)</h2>
+            
+            <div class="input-section">
+                <input type="text" id="item-input" placeholder="Wpisz nową notatkę...">
+                <button id="add-btn" class="add-btn">Dodaj</button>
+            </div>
+
+            <ul class="item-list" id="item-list">
+
+            </ul>
+            <p id="empty-msg" class="empty-message">Brak zapisanych elementów</p>
+        </div>
+
+        <div class="form_block">
+            <div class="form-container">
+                <div id="success-box" class="success-message">
+                    Formularz został poprawnie zwalidowany!
+                </div>
+
+                <form id="contact-form" novalidate method="post">
+                    
+                    <div class="form-group">
+                        <label for="imie">Imię:</label>
+                        <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię">
+                        <div class="error-message" id="error-imie"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nazwisko">Nazwisko:</label>
+                        <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz swoje nazwisko">
+                        <div class="error-message" id="error-nazwisko"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adres e-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="jan@kowalski.pl">
+                        <div class="error-message" id="error-email"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="wiadomosc">Wiadomość:</label>
+                        <textarea id="wiadomosc" name="wiadomosc" placeholder="Napisz coś..."></textarea>
+                        <div class="error-message" id="error-wiadomosc"></div>
+                    </div>
+
+                    <button class="form-btn" type="submit">Wyślij formularz</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Można mnie znaleźć tutaj:</h2>
+        <div>
+            <a href="https://github.com/Pepryk77347" target="_blank" rel="noopener noreferrer">Mój GitHub</a>
+            <br>
+            <a href="https://www.instagram.com/artur_pepryk" target="_blank" rel="noopener noreferrer">Mój Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

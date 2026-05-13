@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    background-color: #f14747;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    height: 3px;
+    background-color: white;
+}
+
+p, li {
+    font-weight: 500;
+}
+
+a {
+    color: black;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f14747;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer div {
+    text-align: center;
+}
+
+#theme-toggle {
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    color: #f14747;
+    text-align: center;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+#toogle-projects {
+    margin-left: 10px;
+    height: 25px;
+    width: 120px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    color: #f14747;
+    text-align: center;
+    cursor: pointer;
+}
+
+#toogle-projects:hover {
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.header_last_name {
+    margin-left: 20px;
+}
+
+.header_text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 110px;
+}
+
+.profil_image {
+    display: block;
+    border-radius: 50%;
+    max-height: 200px;
+    width: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: #ffffff 5px solid;
+}
+
+.ul_text li{
+    margin-bottom: 15px;
+}
+
+.first_block,
+.second_block,
+.third_block {
+    display: flex;
+    gap: 40px;
+}
+
+.first_block section,
+.second_block section, 
+.third_block section {
+    width: 50%;
+}
+
+.form_block {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: transparent;
+    border: solid 2px #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #fdf7f7;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(175, 76, 76, 0.3);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.input-error {
+    border-color: #d9534f !important;
+    background-color: #fdf7f7;
+}
+
+.error-message {
+    max-width: 100%;
+    color: #d9534f;
+    border-radius: 2px;
+    background-color: #fdf7f7;
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.error-message.visible {
+    display: block;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #fdf7f7;
+    color: #555;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-btn:hover {
+    background-color: #a04545;
+    color: #fff;
+}
+
+.success-message {
+    display: none;
+    background-color: #a04545;
+    color: #fdf7f7;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #fdf7f7;
+}
+
+.app-container {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #a04545;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #ccc;
+}
+
+button.add-btn {
+    background-color: #a04545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button.add-btn:hover {
+    background-color: #773232;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-list li {
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #444;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+
+button.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.empty-message {
+    text-align: center;
+    color: #444;
+    font-style: italic;
+}
